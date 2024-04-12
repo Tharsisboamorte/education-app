@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "670175794980",
+    "firebase_url": "https://education-app-7b25e-default-rtdb.firebaseio.com",
+    "project_id": "education-app-7b25e",
+    "storage_bucket": "education-app-7b25e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:670175794980:android:4c9cc14265339a331b45b1",
+        "android_client_info": {
+          "package_name": "com.example.education_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD27ioH-5vGlEn-jP85Gmtq_gyC1mNeQ5U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
