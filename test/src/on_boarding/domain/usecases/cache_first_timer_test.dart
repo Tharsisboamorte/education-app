@@ -8,7 +8,7 @@ import 'package:mocktail/mocktail.dart';
 import 'on_boarding_repo.mock.dart';
 
 void main() {
-  late OnBoardingRepository repository;
+  late OnBoardingRepo repository;
   late CacheFirstTimer usecase;
 
   setUp(() {

@@ -5,7 +5,7 @@ import 'package:education_app/src/on_boarding/domain/repository/on_boarding_repo
 class CheckIfUserIsFirstTimer extends UseCaseWithoutParams<bool> {
   const CheckIfUserIsFirstTimer(this._repository);
 
-  final OnBoardingRepository _repository;
+  final OnBoardingRepo _repository;
 
   @override
   ResultFuture<bool> call() => _repository.checkIfUserIsFirstTimer();

@@ -5,7 +5,7 @@ import 'package:education_app/core/utils/typedefs.dart';
 import 'package:education_app/src/on_boarding/data/datasources/on_boarding_local_data_source.dart';
 import 'package:education_app/src/on_boarding/domain/repository/on_boarding_repo.dart';
 
-class OnBoardingRepoImpl implements OnBoardingRepository {
+class OnBoardingRepoImpl implements OnBoardingRepo {
   const OnBoardingRepoImpl(this._localDataSource);
 
   final OnBoardingLocalDataSource _localDataSource;

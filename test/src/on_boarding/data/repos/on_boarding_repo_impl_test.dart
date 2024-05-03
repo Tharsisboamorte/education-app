@@ -20,7 +20,7 @@ void main() {
   });
 
   test('should be a subclass of [OnBoardingRepo]', () {
-    expect(repoImpl, isA<OnBoardingRepository>());
+    expect(repoImpl, isA<OnBoardingRepo>());
   });
 
   group(
